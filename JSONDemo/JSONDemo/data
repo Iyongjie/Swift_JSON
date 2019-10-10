@@ -1,0 +1,220 @@
+
+
+数据格式
+
+http://api.budejie.com/api/api_open.php?a=square&c=topic
+{
+    "tag_list": [
+            {
+            "theme_id": "3096",
+            "theme_name": "红人频道"
+            },
+            {
+            "theme_id": "9",
+            "theme_name": "自拍交友"
+            }
+            ],
+            "square_list": [
+                        {
+                        "id": "162",
+                        "name": "咪咕悦读会",
+                        "icon": "http://mstatic.spriteapp.cn//ugc/2017/07/12/BtaWlt.jpg",
+                        "url": "http://m.budejie.com/partner/migu.html",
+                        "android": "6.7.3|",
+                        "iphone": "10.0|",
+                        "ipad": "",
+                        "market": ""
+                        },
+                        {
+                        "id": "167",
+                        "name": "水晶直播",
+                        "icon": "http://mstatic.spriteapp.cn//ugc/2018/05/15/sPXsIk.jpg",
+                        "url": "http://h.sjlive.cn/?channel=92002&goroom=1",
+                        "android": "6.7.0|",
+                        "iphone": "",
+                        "ipad": "",
+                        "market": "guanwang|tencentyingyongbao|360zhushou|baidu|B—huawei|B-meizu|xiaomi|wandoujia|leshangdian|taobao|sougousjzs|C-jinli|S-samsung|B-chuizi|b-huawei|b-meizu|b-leshi|s-samsung|anzhi|c-jinli|b-chuizi"
+                        },
+                        {
+                        "id": "0",
+                        "name": "更多",
+                        "icon": "http://img.spriteapp.cn/ugc/2014/05/06/141211_3901.png",
+                        "url": "",
+                        "android": "",
+                        "iphone": "4.5.9|",
+                        "ipad": "",
+                        "market": ""
+                        }
+                            ]
+}
+
+
+http://api.budejie.com/api/api_open.php?a=list&c=subscribe&category_id=35&page=1
+
+    {
+    "count": 97,
+    "next_page": 2,
+    "total": 97,
+    "list": [
+                {
+                "fans_count": 82,
+                "header": "http://wimg.spriteapp.cn/profile/large/2017/05/22/5922ae328603b_mini.jpg",
+                "uid": 20802957,
+                "is_vip": false,
+                "is_follow": 0,
+                "introduction": "这是由一群可（wu）爱（chi）的人创作的原创视频请大家多多支持，转发，谢谢。      鞠躬！成员回礼！",
+                "gender": 2,
+                "tiezi_count": 46,
+                "screen_name": "达叔的街坊官方"
+                },
+                {
+                "fans_count": 108,
+                "header": "http://wimg.spriteapp.cn/profile/large/2016/03/16/56e9066ac784b_mini.jpg",
+                "uid": 17796229,
+                "is_vip": false,
+                "is_follow": 0,
+                "introduction": "",
+                "gender": 2,
+                "tiezi_count": 9,
+                "screen_name": "唐攀攀"
+                },
+                {
+                "fans_count": 892,
+                "header": "http://wimg.spriteapp.cn/profile/large/2016/05/11/57329b0f427ce_mini.jpg",
+                "uid": 7801342,
+                "is_vip": false,
+                "is_follow": 0,
+                "introduction": "只希望每天自己都快快乐乐的",
+                "gender": 1,
+                "tiezi_count": 28,
+                "screen_name": "猫九九"
+                }
+            ],
+    "total_page": 5
+}
+
+
+http://api.budejie.com/api/api_open.php?a=category&c=subscribe
+{
+    "info": {
+            "count": 10,
+            "np": 20
+            },
+    "total": 10,
+    "list": [
+                {
+                "count": 16,
+                "id": 37,
+                "name": "搞笑"
+                },
+                {
+                "count": 7,
+                "id": 36,
+                "name": "精品"
+                }
+            ],
+    "size": 10
+}
+
+
+http://api.budejie.com/api/api_open.php?a=newlist&c=data&page=1&type=all&maxtime=
+{
+    "info": {
+    "vendor": "six.jie.c",
+    "count": 2000,
+    "page": 100,
+    "maxid": "1526535981",
+    "maxtime": "1526535981"
+    },
+    "list": [
+                {
+                "id": "27937548",
+                "type": "10",
+                "text": "各位，大展才华得时候到了，请开始你们的表演！",
+                "user_id": "21390415",
+                "name": "苏小诺Paul",
+                "screen_name": "苏小诺Paul",
+                "profile_image": "http://wx.qlogo.cn/mmopen/vi_32/J5gOJWzDzovFx39apaJfH8PSDDpWkxucHuYtNzea5ib54EKlS2zZPdrcP17ia24pj1180XFt2RW1VOibDRib3rvMAA/0",
+                "created_at": "2018-05-17 13:46:27",
+                "create_time": "2018-05-17 13:07:08",
+                "passtime": "2018-05-17 13:46:27",
+                "love": "58",
+                "hate": "5",
+                "comment": "4",
+                "repost": "0",
+                "bookmark": "0",
+                "bimageuri": "",
+                "voiceuri": "",
+                "voicetime": "0",
+                "voicelength": "0",
+                "status": "2",
+                "theme_id": "16321",
+                "theme_name": "知乎神回复",
+                "theme_type": "1",
+                "videouri": "",
+                "videotime": "0",
+                "original_pid": "0",
+                "cache_version": 2,
+                "cai": "5",
+                "top_cmt": [],
+                "weixin_url": "http://a.f.budejie.com/share/27937548.html?wx.qq.com&appname=",
+                "themes": [],
+                "image0": "http://wimg.spriteapp.cn/ugc/2018/05/17/5afd0dfc45002_1.jpg",
+                "image2": "http://wimg.spriteapp.cn/ugc/2018/05/17/5afd0dfc45002_1.jpg",
+                "image1": "http://wimg.spriteapp.cn/ugc/2018/05/17/5afd0dfc45002_1.jpg",
+                "cdn_img": "http://wimg.spriteapp.cn/ugc/2018/05/17/5afd0dfc45002_1.jpg",
+                "is_gif": "0",
+                "width": "2080",
+                "height": "1560",
+                "tag": "",
+                "t": 1526535987,
+                "ding": "58",
+                "favourite": "0"
+                },
+                {
+                "id": "27937503",
+                "type": "10",
+                "text": "为了藏点私房钱我也是绞尽脑汁啊！",
+                "user_id": "18072769",
+                "name": "内涵污贼君",
+                "screen_name": "内涵污贼君",
+                "profile_image": "http://wimg.spriteapp.cn/profile/large/2017/09/10/59b4ced004cb2_mini.jpg",
+                "created_at": "2018-05-17 13:46:21",
+                "create_time": "2018-05-17 13:03:48",
+                "passtime": "2018-05-17 13:46:21",
+                "love": "63",
+                "hate": "2",
+                "comment": "0",
+                "repost": "0",
+                "bookmark": "0",
+                "bimageuri": "",
+                "voiceuri": "",
+                "voicetime": "0",
+                "voicelength": "0",
+                "status": "2",
+                "theme_id": "17083",
+                "theme_name": "爆笑Gif",
+                "theme_type": "1",
+                "videouri": "",
+                "videotime": "0",
+                "original_pid": "0",
+                "cache_version": 2,
+                "cai": "2",
+                "top_cmt": [],
+                "weixin_url": "http://c.f.zk111.cn/share/27937503.html?wx.qq.com&appname=",
+                "themes": [],
+                "image0": "http://wimg.spriteapp.cn/ugc/2018/05/17/5afd0d346f182.gif",
+                "image2": "http://wimg.spriteapp.cn/ugc/2018/05/17/5afd0d346f182.gif",
+                "image1": "http://wimg.spriteapp.cn/ugc/2018/05/17/5afd0d346f182.gif",
+                "cdn_img": "http://wimg.spriteapp.cn/ugc/2018/05/17/5afd0d346f182.gif",
+                "is_gif": "1",
+                "gifFistFrame": "http://wimg.spriteapp.cn/ugc/2018/05/17/5afd0d346f182_a_1.jpg",
+                "width": "218",
+                "height": "168",
+                "tag": "",
+                "t": 1526535981,
+                "ding": "63",
+                "favourite": "0"
+                }
+        ]
+}
